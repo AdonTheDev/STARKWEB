@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  z-index: 1;
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navigation-buttons button {
+  color: white;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+  background-color: gray;
+}
